@@ -24,8 +24,7 @@
 
   <properties>
     <maven.version>3.1.1</maven.version>
-    <tycho.version>2.0.0</tycho.version>
-    <tycho.extras.version>${tycho.version}</tycho.extras.version>
+    <tycho.version>3.0.5</tycho.version>
     <tycho.scmUrl>scm:git:git://git.eclipse.org/gitroot/epp/org.eclipse.epp.packages.git</tycho.scmUrl>
     <cbi.version>1.1.8-SNAPSHOT</cbi.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,7 +80,7 @@
     </repository>
     <repository>
       <id>justj</id>
-      <url>https://download.eclipse.org/justj/jres/14/updates/release/latest/</url>
+      <url>https://download.eclipse.org/justj/jres/17/updates/release/latest/</url>
       <layout>p2</layout>
     </repository>
     <repository>
@@ -148,14 +147,14 @@
         <artifactId>tycho-packaging-plugin</artifactId>
         <dependencies>
           <dependency>
-            <groupId>org.eclipse.tycho.extras</groupId>
+            <groupId>org.eclipse.tycho</groupId>
             <artifactId>tycho-buildtimestamp-jgit</artifactId>
-            <version>${tycho.extras.version}</version>
+            <version>${tycho.version}</version>
           </dependency>
           <dependency>
             <groupId>org.eclipse.tycho.extras</groupId>
             <artifactId>tycho-sourceref-jgit</artifactId>
-            <version>${tycho.extras.version}</version>
+            <version>${tycho.version}</version>
           </dependency>
         </dependencies>
         <configuration>
@@ -200,7 +199,12 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>build-helper-maven-plugin</artifactId>
-          <version>1.8</version>
+          <version>3.3.0</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>properties-maven-plugin</artifactId>
+          <version>1.1.0</version>
         </plugin>
         <plugin>
           <groupId>org.eclipse.tycho</groupId>
@@ -254,16 +258,6 @@
           </executions>
         </plugin>
         <plugin>
-          <groupId>org.eclipse.tycho.extras</groupId>
-          <artifactId>tycho-pack200a-plugin</artifactId>
-          <version>${tycho.extras.version}</version>
-        </plugin>
-        <plugin>
-          <groupId>org.eclipse.tycho.extras</groupId>
-          <artifactId>tycho-pack200b-plugin</artifactId>
-          <version>${tycho.extras.version}</version>
-        </plugin>
-        <plugin>
           <groupId>org.eclipse.tycho</groupId>
           <artifactId>tycho-p2-plugin</artifactId>
           <version>${tycho.version}</version>
@@ -284,7 +278,7 @@
         <plugin>
           <groupId>org.eclipse.tycho.extras</groupId>
           <artifactId>tycho-source-feature-plugin</artifactId>
-          <version>${tycho.extras.version}</version>
+          <version>${tycho.version}</version>
           <configuration>
             <archive>
               <addMavenDescriptor>false</addMavenDescriptor>
