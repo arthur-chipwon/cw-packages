@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Eclipse IDE for Embedded C/C++ Developers" uid="epp.package.embedcdt" id="org.eclipse.epp.package.embedcdt.product" application="org.eclipse.ui.ide.workbench" version="4.17.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="Eclipse IDE for Embedded C/C++ Developers" uid="epp.package.embedcpp" id="org.eclipse.epp.package.embedcpp.product" application="org.eclipse.ui.ide.workbench" version="4.17.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
-      <image path="/org.eclipse.epp.package.embedcdt/eclipse_lg.png"/>
+      <image path="/org.eclipse.epp.package.embedcpp/eclipse_lg.png"/>
       <text>
          Specified in the plugin.xml of the branding plugin.
       </text>
@@ -14,7 +14,7 @@
    </configIni>
 
    <launcherArgs>
-      <programArgs>-product org.eclipse.epp.package.embedcdt.product
+      <programArgs>-product org.eclipse.epp.package.embedcpp.product
 -showsplash org.eclipse.epp.package.common
 --launcher.defaultAction openFile
       </programArgs>
@@ -31,7 +31,7 @@
       </vmArgsMac>
    </launcherArgs>
 
-   <windowImages i16="/org.eclipse.epp.package.embedcdt/eclipse16.png" i32="/org.eclipse.epp.package.embedcdt/eclipse32.png" i48="/org.eclipse.epp.package.embedcdt/eclipse48.png" i256="/org.eclipse.epp.package.embedcdt/eclipse256.png"/>
+   <windowImages i16="/org.eclipse.epp.package.embedcpp/eclipse16.png" i32="/org.eclipse.epp.package.embedcpp/eclipse32.png" i48="/org.eclipse.epp.package.embedcpp/eclipse48.png" i256="/org.eclipse.epp.package.embedcpp/eclipse256.png"/>
 
    <splash
       location="org.eclipse.epp.package.common"
@@ -202,7 +202,7 @@ United States, other countries, or both.
    </plugins>
 
    <features>
-      <feature id="org.eclipse.epp.package.embedcdt.feature" version="4.17.0.qualifier"/>
+      <feature id="org.eclipse.epp.package.embedcpp.feature" version="4.17.0.qualifier"/>
       <feature id="org.eclipse.epp.package.common.feature" version="4.17.0.qualifier"/>
       <feature id="org.eclipse.platform"/>
       <feature id="org.eclipse.epp.mpc" installMode="root"/>
@@ -260,7 +260,6 @@ United States, other countries, or both.
       <feature id="ilg.gnumcueclipse.templates.freescale.feature" installMode="root"/>
       <feature id="ilg.gnumcueclipse.templates.stm.feature" installMode="root"/>
       <feature id="ilg.gnumcueclipse.templates.sifive.feature" installMode="root"/>
-
    </features>
 
 

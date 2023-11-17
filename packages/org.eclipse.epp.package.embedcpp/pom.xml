@@ -25,7 +25,7 @@
     <relativePath>../../releng/org.eclipse.epp.config/parent/bundle</relativePath>
   </parent>
 
-  <artifactId>org.eclipse.epp.package.embedcdt</artifactId>
+  <artifactId>org.eclipse.epp.package.embedcpp</artifactId>
   <packaging>eclipse-plugin</packaging>
 
 </project>

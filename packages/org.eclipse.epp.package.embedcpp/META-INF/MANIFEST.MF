@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: EPP Embedded CDT Bundle
-Bundle-SymbolicName: org.eclipse.epp.package.embedcdt;singleton:=true
+Bundle-SymbolicName: org.eclipse.epp.package.embedcpp;singleton:=true
 Bundle-Version: 4.17.0.qualifier
 Bundle-Vendor: Eclipse Packaging Project
 Bundle-RequiredExecutionEnvironment: JavaSE-17

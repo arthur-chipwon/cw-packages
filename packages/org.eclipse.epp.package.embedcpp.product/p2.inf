@@ -19,7 +19,7 @@ properties.2.value = Eclipse Packaging Project
 # of everything below the old main package feature. In order to prevent such
 # upgrades we add an artificial lower limit of the IU to the p2 metadata.
 
-update.id = epp.package.embedcdt
+update.id = epp.package.embedcpp
 update.range = [4.6.0.20160301-1200, $version$)
 update.severity = 0
 update.description = Eclipse package upgrade from versions before Eclipse Neon (4.6) is not possible. See bug 332989.

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.eclipse.epp.package.embedcdt.feature"
-      label="EPP Embedded CDT Feature"
+      id="org.eclipse.epp.package.embedcpp.feature"
+      label="EPP Embedded CPP Feature"
       version="4.17.0.qualifier"
       provider-name="Eclipse Packaging Project"
-      plugin="org.eclipse.epp.package.embedcdt"
+      plugin="org.eclipse.epp.package.embedcpp"
       license-feature="org.eclipse.license"
       license-feature-version="0.0.0">
 
@@ -36,7 +36,7 @@
      -->
 
    <plugin
-         id="org.eclipse.epp.package.embedcdt"
+         id="org.eclipse.epp.package.embedcpp"
          download-size="0"
          install-size="0"
          version="0.0.0"/>

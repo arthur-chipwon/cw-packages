@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>org.eclipse.epp.package.embedcdt.product</name>
-	<comment></comment> 
+	<name>org.eclipse.epp.package.embedcpp.product</name>
+	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>

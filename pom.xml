@@ -43,19 +43,19 @@
       </modules>
     </profile>
     <profile>
-      <id>epp.package.embedcdt</id>
-      <modules>
-        <module>packages/org.eclipse.epp.package.embedcdt</module>
-        <module>packages/org.eclipse.epp.package.embedcdt.feature</module>
-        <module>packages/org.eclipse.epp.package.embedcdt.product</module>
-      </modules>
-    </profile>
-    <profile>
       <id>epp.package.dsl</id>
       <modules>
         <module>packages/org.eclipse.epp.package.dsl</module>
         <module>packages/org.eclipse.epp.package.dsl.feature</module>
         <module>packages/org.eclipse.epp.package.dsl.product</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>epp.package.embedcpp</id>
+      <modules>
+        <module>packages/org.eclipse.epp.package.embedcpp</module>
+        <module>packages/org.eclipse.epp.package.embedcpp.feature</module>
+        <module>packages/org.eclipse.epp.package.embedcpp.product</module>
       </modules>
     </profile>
     <profile>

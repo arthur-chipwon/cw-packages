@@ -78,7 +78,7 @@
          point="org.eclipse.ui.intro">
       <introProductBinding
             introId="org.eclipse.ui.intro.universal"
-            productId="org.eclipse.epp.package.embedcdt.product">
+            productId="org.eclipse.epp.package.embedcpp.product">
       </introProductBinding>
    </extension>
 
