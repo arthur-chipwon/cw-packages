@@ -245,21 +245,20 @@ United States, other countries, or both.
       <feature id="org.eclipse.tracecompass.lttng2.ust" installMode="root"/>
 
       <!-- Add Embedded CDT features. -->
-      <feature id="ilg.gnumcueclipse.managedbuild.cross.arm.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.managedbuild.cross.riscv.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.codered.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.debug.gdbjtag.jlink.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.debug.gdbjtag.openocd.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.debug.gdbjtag.pyocd.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.debug.gdbjtag.qemu.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.debug.gdbjtag.jumper.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.packs.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.doc.user.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.templates.ad.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.templates.cortexm.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.templates.freescale.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.templates.stm.feature" installMode="root"/>
-      <feature id="ilg.gnumcueclipse.templates.sifive.feature" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.managedbuild.cross.arm" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.managedbuild.cross.riscv" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.codered" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.debug.gdbjtag.jlink" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.debug.gdbjtag.openocd" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.debug.gdbjtag.pyocd" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.debug.gdbjtag.qemu" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.packs" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.doc.user" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.templates.ad" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.templates.cortexm" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.templates.freescale" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.templates.stm" installMode="root"/>
+      <feature id="org.eclipse.embedcdt.templates.sifive" installMode="root"/>
    </features>
 
 
